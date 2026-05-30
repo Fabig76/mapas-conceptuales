@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+<title>Markmap</title>
+<style>
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-family: ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji',
+    'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+}
+#mindmap {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+}
+.markmap-dark {
+  background: #27272a;
+  color: white;
+}
+</style>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.18.12/dist/style.css">
+</head>
+<body>
+<svg id="mindmap"></svg>
+<script src="https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js"></script><script src="https://cdn.jsdelivr.net/npm/markmap-view@0.18.12/dist/browser/index.js"></script><script src="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.18.12/dist/index.js"></script><script>((r) => {
+          setTimeout(r);
+        })(() => {
+  const { markmap, mm } = window;
+  const toolbar = new markmap.Toolbar();
+  toolbar.attach(mm);
+  const el = toolbar.render();
+  el.setAttribute("style", "position:absolute;bottom:20px;right:20px");
+  document.body.append(el);
+})</script><script>((getMarkmap, getOptions, root2, jsonOptions) => {
+              const markmap = getMarkmap();
+              window.mm = markmap.Markmap.create(
+                "svg#mindmap",
+                (getOptions || markmap.deriveOptions)(jsonOptions),
+                root2
+              );
+              if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
+                document.documentElement.classList.add("markmap-dark");
+              }
+            })(() => window.markmap,null,{"content":"Los paradigmas en la psicolog&#xed;a de la educaci&#xf3;n (Hern&#xe1;ndez Rojas, 2013)","children":[{"content":"Concepto de paradigma (punto de vista kuhniano)","children":[{"content":"Definici&#xf3;n: constelaci&#xf3;n de creencias, valores, t&#xe9;cnicas y compromisos compartidos por una comunidad de cient&#xed;ficos","children":[],"payload":{"tag":"li","lines":"3,4"}},{"content":"Se entiende en dos sentidos","children":[{"content":"Sentido amplio (matriz disciplinar): todo lo compartido por la comunidad","children":[],"payload":{"tag":"li","lines":"5,6"}},{"content":"Sentido espec&#xed;fico (ejemplares): soluciones protot&#xed;picas a problemas o enigmas (puzzles)","children":[],"payload":{"tag":"li","lines":"6,7"}}],"payload":{"tag":"li","lines":"4,7"}},{"content":"El desarrollo de la ciencia es discontinuo, con etapas","children":[{"content":"Etapa preparadigm&#xe1;tica","children":[],"payload":{"tag":"li","lines":"8,9"}},{"content":"Ciencia normal","children":[],"payload":{"tag":"li","lines":"9,10"}},{"content":"Ciencia revolucionaria","children":[],"payload":{"tag":"li","lines":"10,11"}}],"payload":{"tag":"li","lines":"7,11"}},{"content":"Los paradigmas rivales son inconmensurables","children":[],"payload":{"tag":"li","lines":"11,13"}}],"payload":{"tag":"h2","lines":"2,3"}},{"content":"Aplicaci&#xf3;n de las ideas de Kuhn a la psicolog&#xed;a","children":[{"content":"Uso metate&#xf3;rico: incorporar la noci&#xf3;n de paradigma en la explicaci&#xf3;n historiogr&#xe1;fica de la disciplina","children":[],"payload":{"tag":"li","lines":"14,15"}},{"content":"Integraci&#xf3;n de la idea de paradigma en la descripci&#xf3;n de teor&#xed;as y l&#xed;neas de investigaci&#xf3;n","children":[],"payload":{"tag":"li","lines":"15,16"}},{"content":"La psicolog&#xed;a es una disciplina multiparadigm&#xe1;tica (pluriparadigm&#xe1;tica)","children":[],"payload":{"tag":"li","lines":"16,17"}},{"content":"Los enfoques te&#xf3;ricos prevalecientes se constituyen como paradigmas porque re&#xfa;nen comunidades con criterios propios","children":[{"content":"Criterios epistemol&#xf3;gicos","children":[],"payload":{"tag":"li","lines":"18,19"}},{"content":"Criterios te&#xf3;ricos","children":[],"payload":{"tag":"li","lines":"19,20"}},{"content":"Criterios metodol&#xf3;gicos","children":[],"payload":{"tag":"li","lines":"20,22"}}],"payload":{"tag":"li","lines":"17,22"}}],"payload":{"tag":"h2","lines":"13,14"}},{"content":"Componentes de los paradigmas (cinco)","children":[{"content":"Problem&#xe1;tica: espacio de problemas de estudio e investigaci&#xf3;n","children":[],"payload":{"tag":"li","lines":"23,24"}},{"content":"Fundamentos epistemol&#xf3;gicos: supuestos metate&#xf3;ricos con los que se compromete la comunidad","children":[],"payload":{"tag":"li","lines":"24,25"}},{"content":"Supuestos te&#xf3;ricos: hip&#xf3;tesis y sustentos conceptuales compartidos","children":[],"payload":{"tag":"li","lines":"25,26"}},{"content":"Prescripciones metodol&#xf3;gicas: m&#xe9;todos, t&#xe9;cnicas y reglas de investigaci&#xf3;n","children":[],"payload":{"tag":"li","lines":"26,27"}},{"content":"Proyecciones de aplicaci&#xf3;n: usos pr&#xe1;cticos derivados del paradigma","children":[],"payload":{"tag":"li","lines":"27,29"}}],"payload":{"tag":"h2","lines":"22,23"}},{"content":"Paradigmas en la psicolog&#xed;a de la educaci&#xf3;n (1960-1980)","children":[{"content":"Conductista (Skinner, Bandura)","children":[{"content":"Instrucci&#xf3;n programada","children":[],"payload":{"tag":"li","lines":"31,32"}},{"content":"M&#xe1;quinas de ense&#xf1;anza","children":[],"payload":{"tag":"li","lines":"32,33"}},{"content":"T&#xe9;cnicas de modificaci&#xf3;n conductual","children":[],"payload":{"tag":"li","lines":"33,34"}}],"payload":{"tag":"li","lines":"30,34"}},{"content":"Cognitivo (Ausubel, Bruner)","children":[{"content":"Teor&#xed;as de la instrucci&#xf3;n","children":[],"payload":{"tag":"li","lines":"35,36"}},{"content":"Tecnolog&#xed;a instruccional","children":[],"payload":{"tag":"li","lines":"36,37"}},{"content":"Investigaci&#xf3;n de procesos cognitivos","children":[],"payload":{"tag":"li","lines":"37,38"}}],"payload":{"tag":"li","lines":"34,38"}},{"content":"Humanista (Maslow, Rogers)","children":[{"content":"Ense&#xf1;anza no directiva centrada en el alumno","children":[],"payload":{"tag":"li","lines":"39,40"}},{"content":"Orientaci&#xf3;n vocacional","children":[],"payload":{"tag":"li","lines":"40,41"}}],"payload":{"tag":"li","lines":"38,41"}},{"content":"Psicogen&#xe9;tico piagetiano (Piaget)","children":[{"content":"Programas constructivistas","children":[],"payload":{"tag":"li","lines":"42,43"}},{"content":"Ense&#xf1;anza de la lengua escrita","children":[],"payload":{"tag":"li","lines":"43,44"}},{"content":"Ense&#xf1;anza de las matem&#xe1;ticas y las ciencias","children":[],"payload":{"tag":"li","lines":"44,45"}}],"payload":{"tag":"li","lines":"41,45"}},{"content":"Sociocultural (Vigotsky)","children":[{"content":"Aprendizaje guiado","children":[],"payload":{"tag":"li","lines":"46,47"}},{"content":"Ense&#xf1;anza rec&#xed;proca","children":[],"payload":{"tag":"li","lines":"47,48"}},{"content":"Aprendizaje situado","children":[],"payload":{"tag":"li","lines":"48,49"}},{"content":"Evaluaci&#xf3;n din&#xe1;mica","children":[],"payload":{"tag":"li","lines":"49,50"}}],"payload":{"tag":"li","lines":"45,50"}}],"payload":{"tag":"h2","lines":"29,30"}}],"payload":{"tag":"h1","lines":"0,1"}},null)</script>
+</body>
+</html>
